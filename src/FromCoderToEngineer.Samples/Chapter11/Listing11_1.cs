@@ -1,7 +1,6 @@
-﻿namespace FromCoderToEngineer.Application.Models
+﻿namespace FromCoderToEngineer.Samples.Chapter11
 {
     using System;
-    using System.Collections.Generic;
 
     public class Customer
     {
@@ -13,6 +12,8 @@
 
         public string Email { get; set; }
 
-        public ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
+        public int LoyaltyPoints { get; set; }
+
+        public int PointsYearToDate { get; set; }
     }
 }
