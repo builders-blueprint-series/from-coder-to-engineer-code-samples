@@ -12,8 +12,12 @@
 
         public string Email { get; set; }
 
+        public string LoyaltyId { get; set; }
+
         public int LoyaltyPoints { get; set; }
 
         public int PointsYearToDate { get; set; }
+
+        public LoyaltyStatus Status { get; set; }
     }
 }
