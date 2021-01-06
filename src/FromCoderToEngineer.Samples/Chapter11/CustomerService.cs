@@ -25,6 +25,8 @@
             {
                 _emailClient.SendNewStatusEmail(customer);
             }
+
+            _customerRepository.UpdateCustomer(customer);
         }
 
         public void GiftPoints(Guid customerId, int loyaltyPoints)
@@ -34,6 +36,8 @@
             AddPointsAndCheckForNewStatus(customer, loyaltyPoints);
 
             _emailClient.SendApology(customer);
+
+            _customerRepository.UpdateCustomer(customer);
         }
 
         public Customer CreateCustomer(string firstName, string lastName, string email)
