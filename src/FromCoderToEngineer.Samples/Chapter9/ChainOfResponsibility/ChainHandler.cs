@@ -1,5 +1,6 @@
 ﻿namespace FromCoderToEngineer.Samples.Chapter9.ChainOfResponsibility
 {
+    using System;
     using System.Threading.Tasks;
 
     public abstract class ChainHandler<T> : IChainHandler<T>
@@ -13,6 +14,8 @@
 
         public async Task<T> Handle(T request)
         {
+            Func<int, int> bleh = x => x;
+
             var result = await DoWork(request);
 
             return _successor == null ? result : await _successor.Handle(result);
