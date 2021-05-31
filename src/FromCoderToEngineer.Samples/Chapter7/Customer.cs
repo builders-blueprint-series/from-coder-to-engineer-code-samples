@@ -9,7 +9,7 @@
             Id = id;
         }
 
-        public Guid Id { get; }
+        public Guid Id { get; set; }
 
         public string MaskedId()
         {
