@@ -1,9 +1,10 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter9.GenericDelegates
+﻿using FromCoderToEngineer.Samples.Chapter9.GenrricDelegates;
+
+namespace FromCoderToEngineer.Samples.Chapter9.GenericDelegates
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using FromCoderToEngineer.Samples.Chapter9.CommonInterfaces;
 
     public class UpdatedReservationFunctions
     {
