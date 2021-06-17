@@ -1,8 +1,8 @@
-﻿using System;
-using System.Text.RegularExpressions;
-
-namespace FromCoderToEngineer.Samples.Common
+﻿namespace FromCoderToEngineer.Samples.Common
 {
+    using System;
+    using System.Text.RegularExpressions;
+
     public static class Assert
     {
         public static void IsNotNull(object obj)

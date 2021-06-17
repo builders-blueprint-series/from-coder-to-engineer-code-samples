@@ -1,6 +1,4 @@
-﻿using FromCoderToEngineer.Samples.Chapter9.GenrricDelegates;
-
-namespace FromCoderToEngineer.Samples.Chapter9.GenericDelegates
+﻿namespace FromCoderToEngineer.Samples.Chapter9.GenericDelegates
 {
     using System;
     using System.Collections.Generic;

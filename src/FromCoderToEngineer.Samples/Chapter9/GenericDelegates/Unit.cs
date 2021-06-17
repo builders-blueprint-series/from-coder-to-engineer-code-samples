@@ -1,4 +1,4 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter9.GenrricDelegates
+﻿namespace FromCoderToEngineer.Samples.Chapter9.GenericDelegates
 {
     public class Unit
     {
