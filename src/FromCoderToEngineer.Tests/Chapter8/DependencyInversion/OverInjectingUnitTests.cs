@@ -1,5 +1,7 @@
 ﻿using FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices;
 using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
+using FromCoderToEngineer.Samples.Common;
+using FromCoderToEngineer.Samples.Common.ReservationService;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
