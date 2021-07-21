@@ -18,4 +18,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Chapter8\TheNewKeyword\RefactoringToACommand\" />
+  </ItemGroup>
+
 </Project>

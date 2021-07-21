@@ -10,5 +10,7 @@
         IEnumerable<Reservation> FindAllReservationsOnDate(DateTime datetime);
 
         IEnumerable<Reservation> FindAllReservationsOnDate(DateTime min, DateTime max);
+
+        IEnumerable<Reservation> FindAllReservationsOnDate(FindAllReservationsInRange request);
     }
 }
