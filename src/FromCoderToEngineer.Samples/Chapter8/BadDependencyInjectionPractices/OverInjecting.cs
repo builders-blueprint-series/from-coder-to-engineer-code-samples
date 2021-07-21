@@ -1,5 +1,4 @@
 ﻿using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
-using FromCoderToEngineer.Samples.Common;
 using FromCoderToEngineer.Samples.Common.ReservationService;
 
 namespace FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices
