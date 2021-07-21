@@ -4,6 +4,6 @@
 
     public class ChangeCustomerReservationTime
     {
-        public DateTime DateTime { get; set; }  
+        public DateTime DateTime { get; set; }
     }
 }

@@ -2,9 +2,9 @@
 {
     using FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices;
     using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
-    using FromCoderToEngineer.Samples.Common.ReservationService;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;
+    using Samples.Common;
 
     [TestClass]
     public class OverInjectingUnitTests
@@ -14,15 +14,19 @@
         public OverInjectingUnitTests()
         {
             var eventBus = new Mock<IEventBus>();
+
             // Setup eventBus mock.
 
             var systemClock = new Mock<ISystemClock>();
+
             // Setup systemClock mock.
 
             var reservationService = new Mock<IReservationService>();
+
             // Setup reservationService mock.
 
             var customerRepository = new Mock<ICustomerRepository>();
+
             // Setup customerRepository mock.
 
             _customerService = new OverInjecting(eventBus.Object, systemClock.Object, reservationService.Object, customerRepository.Object, new CustomerFactory());
