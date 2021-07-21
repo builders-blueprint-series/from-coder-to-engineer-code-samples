@@ -1,11 +1,11 @@
-﻿using FromCoderToEngineer.Samples.Chapter8.DealingWithConcreteOnlyClasses;
-using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
-using System;
-
-namespace FromCoderToEngineer.Tests.Chapter8.DependencyInversion
+﻿namespace FromCoderToEngineer.Tests.Chapter8.DependencyInversion
 {
+    using System;
+    using FromCoderToEngineer.Samples.Chapter8.DealingWithConcreteOnlyClasses;
+    using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using Moq;
+
     [TestClass]
     public class ServiceUsingISystemClockTests
     {
