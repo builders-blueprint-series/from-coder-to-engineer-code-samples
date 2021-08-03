@@ -29,7 +29,27 @@
             {
                 var customer = CustomerService.AddCustomer(request.FirstName, request.LastName, request.Email);
 
-                return Created(string.Empty, null);
+                return Created(string.Empty, customer);
+            }
+            catch (Exception exception)
+            {
+                return new StatusCodeResult(StatusCodes.Status500InternalServerError);
+            }
+        }
+
+        [HttpPut]
+        public IActionResult UpdateCustomerEmail(UpdateCustomerEmail request)
+        {
+            if (request.CustomerId == Guid.Empty || request.Email == string.Empty || request.Email == null)
+            {
+                return BadRequest("Fields may not be empty.");
+            }
+
+            try
+            {
+                CustomerService.UpdateCustomer(request);
+
+                return NoContent();
             }
             catch (Exception exception)
             {

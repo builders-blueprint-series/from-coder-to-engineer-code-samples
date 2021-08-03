@@ -11,5 +11,9 @@
         public string LastName { get; set; }
 
         public string Email { get; set; }
+
+        public Status Status { get; set; }
+
+        public int TotalReservations { get; set; }
     }
 }
