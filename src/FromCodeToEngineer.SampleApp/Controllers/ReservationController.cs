@@ -55,6 +55,11 @@
         [HttpPost]
         public IActionResult AddReservation(AddReservation request)
         {
+            if (request.CustomerId == Guid.Empty || request.DateTime == DateTime.MinValue)
+            {
+                return BadRequest("Fields may not be empty.");
+            }
+
             try
             {
                 var result = ReservationService.AddReservation(request);
@@ -70,6 +75,11 @@
         [HttpDelete("{id:guid}")]
         public IActionResult DeleteReservation(Guid id)
         {
+            if (id == Guid.Empty)
+            {
+                return BadRequest("Id may not be empty.");
+            }
+
             try
             {
                 ReservationService.DeleteReservation(id);
