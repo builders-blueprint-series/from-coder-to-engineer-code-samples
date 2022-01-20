@@ -1,7 +1,7 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter7
-{
-    using System;
+﻿using System;
 
+namespace FromCoderToEngineer.Samples.Chapter7
+{
     public static class IdMasker
     {
         public static string MaskId(Guid id)

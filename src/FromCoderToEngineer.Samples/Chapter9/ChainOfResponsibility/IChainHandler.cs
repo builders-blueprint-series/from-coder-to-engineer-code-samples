@@ -1,7 +1,7 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter9.ChainOfResponsibility
-{
-    using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
+namespace FromCoderToEngineer.Samples.Chapter9.ChainOfResponsibility
+{
     public interface IChainHandler<T>
     {
         Task<T> Handle(T command);

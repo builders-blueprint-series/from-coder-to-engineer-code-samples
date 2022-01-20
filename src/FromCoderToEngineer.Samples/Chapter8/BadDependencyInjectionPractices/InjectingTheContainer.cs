@@ -1,8 +1,8 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices
-{
-    using System;
-    using DependencyInversion;
+﻿using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
+using System;
 
+namespace FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices
+{
     public class InjectingTheContainer : ICustomerService
     {
         private readonly IServiceProvider _serviceProvider;

@@ -1,9 +1,9 @@
-﻿namespace FromCoderToEngineer.Tests.Chapter7
-{
-    using System;
-    using FromCoderToEngineer.Samples.Chapter7;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using FromCoderToEngineer.Samples.Chapter7;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 
+namespace FromCoderToEngineer.Tests.Chapter7
+{
     [TestClass]
     public class ModifiedCustomerTests
     {

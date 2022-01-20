@@ -1,7 +1,7 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
-{
-    using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
+namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
+{
     public class CustomerModule
     {
         public void Register(IServiceCollection collection)

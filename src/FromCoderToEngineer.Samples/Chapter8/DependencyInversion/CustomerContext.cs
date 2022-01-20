@@ -1,7 +1,7 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
-{
-    using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
+namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
+{
     public class CustomerContext : DbContext
     {
     }

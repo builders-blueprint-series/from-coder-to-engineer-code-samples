@@ -1,8 +1,8 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
-{
-    using System;
-    using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 
+namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
+{
     public static class ServiceFactory
     {
         public static ICustomerService CustomerService()

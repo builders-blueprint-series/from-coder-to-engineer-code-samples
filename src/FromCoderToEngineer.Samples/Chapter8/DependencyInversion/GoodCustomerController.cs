@@ -1,7 +1,7 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
-{
-    using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
+namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
+{
     [ApiController]
     [Route("api/[controller]")]
     public class GoodCustomerController : ControllerBase

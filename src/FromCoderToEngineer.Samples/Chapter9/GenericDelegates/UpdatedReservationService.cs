@@ -1,8 +1,8 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter9.GenericDelegates
-{
-    using System;
-    using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
+namespace FromCoderToEngineer.Samples.Chapter9.GenericDelegates
+{
     public class UpdatedReservationService : IInteract<Reservation>
     {
         private readonly IEnumerable<Reservation> _reservations;
