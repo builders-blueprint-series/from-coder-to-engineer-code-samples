@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FromCoderToEngineer.Samples.Chapter1
+namespace FromCoderToEngineer.Samples.Chapter1.PublicSetters
 {
     public class Customer
     {
