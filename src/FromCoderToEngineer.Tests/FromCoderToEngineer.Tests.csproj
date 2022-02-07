@@ -29,4 +29,8 @@
     <ProjectReference Include="..\FromCoderToEngineer.Samples\FromCoderToEngineer.Samples.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Chapter1\NakedPropertiesAndCollections\" />
+  </ItemGroup>
+
 </Project>
