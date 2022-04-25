@@ -2,9 +2,9 @@
 
 namespace FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections
 {
-    public class CustomerWithComplexName
+    public class Name
     {
-        public CustomerWithComplexName(string firstName, string lastName, string middleName, string preferredName, Honorifics honorifics, Suffix suffix)
+        public Name(string firstName, string lastName, string middleName, string preferredName, Honorifics honorifics = Honorifics.None, Suffix suffix = Suffix.None)
         {
             Validator.ValidNameFormat(firstName);
             Validator.ValidNameFormat(lastName);
@@ -18,8 +18,6 @@ namespace FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections
             Honorifics = honorifics;
             Suffix = suffix;
         }
-
-        // Other properties and methods omitted for brevity.
 
         public string FirstName { get; }
 
