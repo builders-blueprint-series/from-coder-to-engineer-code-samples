@@ -1,12 +1,12 @@
-﻿namespace FromCoderToEngineer.Tests.Chapter11
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using FromCoderToEngineer.Samples.Chapter11;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using Moq;
+﻿using FromCoderToEngineer.Samples.Chapter11;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
+namespace FromCoderToEngineer.Tests.Chapter11
+{
     [TestClass]
     public class CustomerServiceTests
     {

@@ -1,7 +1,7 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices
-{
-    using DependencyInversion;
+﻿using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
 
+namespace FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices
+{
     public class DisposingFromTheContainer : ICustomerService
     {
         public void Handle(ChangeCustomerReservationTime request)

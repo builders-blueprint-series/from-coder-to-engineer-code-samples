@@ -1,8 +1,8 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter11
-{
-    using System;
-    using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
+namespace FromCoderToEngineer.Samples.Chapter11
+{
     public interface ICustomerRepository
     {
         Customer GetById(Guid id);

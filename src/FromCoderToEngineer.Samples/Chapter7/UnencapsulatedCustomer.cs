@@ -1,7 +1,7 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter7
-{
-    using System;
+﻿using System;
 
+namespace FromCoderToEngineer.Samples.Chapter7
+{
     public class UnEncapsulatedCustomer
     {
         public Guid Id { get; set; }

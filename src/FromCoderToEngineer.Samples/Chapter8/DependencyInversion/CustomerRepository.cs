@@ -1,7 +1,7 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
-{
-    using System;
+﻿using System;
 
+namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
+{
     public class CustomerRepository : ICustomerRepository, IDisposable
     {
         private readonly CustomerContext _context;

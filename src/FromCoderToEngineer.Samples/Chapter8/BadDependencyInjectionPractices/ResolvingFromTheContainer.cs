@@ -1,9 +1,9 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices
-{
-    using System;
-    using DependencyInversion;
-    using Microsoft.Extensions.DependencyInjection;
+﻿using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 
+namespace FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices
+{
     public class ResolvingFromTheContainer : ICustomerService
     {
         private readonly IServiceProvider _serviceProvider;

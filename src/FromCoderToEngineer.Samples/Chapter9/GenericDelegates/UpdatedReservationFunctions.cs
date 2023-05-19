@@ -1,9 +1,9 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter9.GenericDelegates
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
+namespace FromCoderToEngineer.Samples.Chapter9.GenericDelegates
+{
     public class UpdatedReservationFunctions
     {
         public static Func<IEnumerable<Reservation>, IEnumerable<Reservation>> TodaysReservations = x => x.Where(y => y.DateTime == DateTime.Today);

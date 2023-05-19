@@ -1,9 +1,9 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter11
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
+namespace FromCoderToEngineer.Samples.Chapter11
+{
     public class CustomerService : ICustomerService
     {
         private readonly ICustomerRepository _customerRepository;

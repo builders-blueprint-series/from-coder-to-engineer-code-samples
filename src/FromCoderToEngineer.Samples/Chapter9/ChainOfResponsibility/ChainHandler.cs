@@ -1,8 +1,8 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter9.ChainOfResponsibility
-{
-    using System;
-    using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 
+namespace FromCoderToEngineer.Samples.Chapter9.ChainOfResponsibility
+{
     public abstract class ChainHandler<T> : IChainHandler<T>
     {
         private readonly IChainHandler<T> _successor;

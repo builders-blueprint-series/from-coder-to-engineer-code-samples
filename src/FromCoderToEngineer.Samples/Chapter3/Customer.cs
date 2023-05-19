@@ -1,7 +1,7 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter3
-{
-    using Common;
+﻿using FromCoderToEngineer.Samples.Common;
 
+namespace FromCoderToEngineer.Samples.Chapter3
+{
     public class Customer
     {
         public Customer(string name)
