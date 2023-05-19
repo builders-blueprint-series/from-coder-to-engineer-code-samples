@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FromCoderToEngineer.Samples.Chapter9.GenericDelegates;
+using System;
 using System.Collections.Generic;
 
 namespace FromCoderToEngineer.Samples.Common.ReservationService
@@ -28,16 +29,6 @@ namespace FromCoderToEngineer.Samples.Common.ReservationService
         }
 
         public FindAllReservationsOnDateResponse FindAllReservationsOnDate(FindAllReservationsOnDate request)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Reservation> FindAllReservationsOnDate(DateTime dateTime)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Reservation> FindAllReservationsOnDate(DateTime min, DateTime max)
         {
             throw new NotImplementedException();
         }
