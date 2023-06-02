@@ -1,6 +1,5 @@
 ﻿using FromCoderToEngineer.Samples.Chapter1.PrivateMethods;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 
 namespace FromCoderToEngineer.Tests.Chapter1.PrivateMethods
 {

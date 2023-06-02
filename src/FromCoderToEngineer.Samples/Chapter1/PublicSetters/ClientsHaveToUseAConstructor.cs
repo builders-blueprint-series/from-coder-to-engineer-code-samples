@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FromCoderToEngineer.Samples.Chapter1.PublicSetters
+﻿namespace FromCoderToEngineer.Samples.Chapter1.PublicSetters
 {
     public class ClientsHaveToUseAConstructor
     {

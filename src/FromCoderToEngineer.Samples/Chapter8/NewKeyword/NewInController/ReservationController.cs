@@ -1,6 +1,5 @@
 ﻿using FromCoderToEngineer.Samples.Common.ReservationService;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 
 namespace FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController

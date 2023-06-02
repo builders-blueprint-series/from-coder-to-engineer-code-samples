@@ -1,6 +1,4 @@
-﻿using FromCoderToEngineer.Samples.Chapter1.PublicSetters;
-
-namespace FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections
+﻿namespace FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections
 {
     public class NameWithEncapsulatedValidation
     {
