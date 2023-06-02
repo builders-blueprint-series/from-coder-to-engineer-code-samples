@@ -1,9 +1,10 @@
-﻿using FromCoderToEngineer.Samples.Common.ReservationService;
-using Microsoft.AspNetCore.Mvc;
-using System;
-
-namespace FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController
+﻿namespace FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController
 {
+    using System;
+    using FromCoderToEngineer.Samples.Common.ReservationService;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.Filters;
+
     //[ApiController]
     //[Route("api/[controller]")]
     //public class ReservationController : ControllerBase
@@ -80,37 +81,17 @@ namespace FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController
             }
         }
 
-        //[HttpGet("/{date:datetime}")]
-        //public IActionResult FindAllReservationsOnDate(DateTime date)
-        //{
-        //    if (date == DateTime.MinValue)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    try
-        //    {
-        //        var result = _reservationService.FindAllReservationsOnDate(date);
-
-        //        return Ok(result);
-        //    }
-        //    catch (Exception exception)
-        //    {
-        //        return BadRequest(exception.Message);
-        //    }
-        //}
-
-        [HttpGet("/{min:datetime}/{max:datetime}")]
-        public IActionResult FindAllReservationsOnDate(DateTime min, DateTime max)
+        [HttpGet("/{date:datetime}")]
+        public IActionResult FindAllReservationsOnDate(DateTime date)
         {
-            if (min == DateTime.MinValue || max == DateTime.MinValue)
+            if (date == DateTime.MinValue)
             {
                 return BadRequest();
             }
 
             try
             {
-                var result = _reservationService.FindAllReservationsOnDate(min, max);
+                var result = _reservationService.FindAllReservationsOnDate(date);
 
                 return Ok(result);
             }
@@ -119,6 +100,26 @@ namespace FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController
                 return BadRequest(exception.Message);
             }
         }
+
+        //[HttpGet("/{min:datetime}/{max:datetime}")]
+        //public IActionResult FindAllReservationsOnDate(DateTime min, DateTime max)
+        //{
+        //    if (min == DateTime.MinValue || max == DateTime.MinValue)
+        //    {
+        //        return BadRequest();
+        //    }
+
+        //    try
+        //    {
+        //        var result = _reservationService.FindAllReservationsOnDate(min, max);
+
+        //        return Ok(result);
+        //    }
+        //    catch (Exception exception)
+        //    {
+        //        return BadRequest(exception.Message);
+        //    }
+        //}
 
         [HttpPost]
         public IActionResult ChangeReservationTime(ChangeReservationTime request)

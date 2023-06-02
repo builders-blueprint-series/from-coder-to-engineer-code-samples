@@ -4,7 +4,7 @@ namespace FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections
 {
     public class NameValidator
     {
-        public void Validate(Name name)
+        public void Validate(NameWithEncapsulatedValidation name)
         {
             Validator.ValidNameFormat(name.FirstName);
             Validator.ValidNameFormat(name.LastName);

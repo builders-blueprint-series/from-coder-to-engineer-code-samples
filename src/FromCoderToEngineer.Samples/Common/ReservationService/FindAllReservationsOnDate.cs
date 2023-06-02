@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace FromCoderToEngineer.Samples.Common.ReservationService
+﻿namespace FromCoderToEngineer.Samples.Common.ReservationService
 {
+    using System;
+
     public class FindAllReservationsOnDate
     {
         public FindAllReservationsOnDate(DateTime dateTime)
