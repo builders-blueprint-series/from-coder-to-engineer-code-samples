@@ -1,6 +1,4 @@
-﻿using FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections;
-
-namespace FromCoderToEngineer.Samples.Chapter2.AddingToImplementations
+﻿namespace FromCoderToEngineer.Samples.Chapter2.AddingToImplementations
 {
     public class Customer
     {
@@ -14,3 +12,6 @@ namespace FromCoderToEngineer.Samples.Chapter2.AddingToImplementations
         }
     }
 }
+
+
+
