@@ -3,5 +3,6 @@
     public class Email
     {
         // Other properties and methods omitted for brevity.
+        public string Value { get; }
     }
 }
