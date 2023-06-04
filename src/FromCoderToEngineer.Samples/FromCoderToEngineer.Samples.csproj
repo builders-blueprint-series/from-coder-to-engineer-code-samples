@@ -18,8 +18,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Chapter2\" />
-  </ItemGroup>
-
 </Project>

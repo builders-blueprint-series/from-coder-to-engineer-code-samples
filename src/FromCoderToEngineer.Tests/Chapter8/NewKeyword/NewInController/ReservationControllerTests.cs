@@ -3,8 +3,8 @@
     using System;
     using System.Collections.Generic;
     using FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController;
-    using FromCoderToEngineer.Samples.Chapter9.GenericDelegates;
-    using FromCoderToEngineer.Samples.Common.ReservationService;
+    using Samples.Chapter9.GenericDelegates;
+    using Samples.Common.ReservationService;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Moq;

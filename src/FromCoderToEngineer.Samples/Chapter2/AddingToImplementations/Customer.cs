@@ -2,16 +2,23 @@
 {
     public class Customer
     {
-        // Constructor and Properties
+        private readonly CustomerStatus _status;
+
+        public Customer(CustomerStatus status)
+        {
+            _status = status;
+        }
 
         public decimal ApplyDiscount(decimal total)
         {
-            const decimal discount = .95m;
+            if (_status == CustomerStatus.Member)
+            {
+                const decimal discount = .95m;
 
-            return total * discount;
+                return total * discount;
+            }
+
+            return total;
         }
     }
 }
-
-
-

@@ -2,7 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
-    using FromCoderToEngineer.Samples.Chapter9.GenericDelegates;
+    using Chapter9.GenericDelegates;
 
     public interface IReservationService
     {

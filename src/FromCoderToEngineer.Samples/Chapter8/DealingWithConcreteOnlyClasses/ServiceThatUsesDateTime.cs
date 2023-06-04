@@ -1,7 +1,7 @@
 ﻿namespace FromCoderToEngineer.Samples.Chapter8.DealingWithConcreteOnlyClasses
 {
     using System;
-    using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
+    using DependencyInversion;
 
     public class ServiceThatUsesDateTime : ICustomerService
     {
