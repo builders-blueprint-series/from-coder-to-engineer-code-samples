@@ -1,6 +1,5 @@
 ﻿using FromCoderToEngineer.Samples.Chapter1.PublicSetters;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 
 namespace FromCoderToEngineer.Tests.Chapter1.PublicSetters
 {
