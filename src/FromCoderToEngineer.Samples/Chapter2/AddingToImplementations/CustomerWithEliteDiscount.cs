@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FromCoderToEngineer.Samples.Chapter2.AddingToImplementations
+﻿namespace FromCoderToEngineer.Samples.Chapter2.AddingToImplementations
 {
     public class CustomerWithEliteDiscount
     {

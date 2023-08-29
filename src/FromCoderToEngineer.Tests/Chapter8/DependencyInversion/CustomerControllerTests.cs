@@ -1,9 +1,9 @@
-﻿namespace FromCoderToEngineer.Tests.Chapter8.DependencyInversion
-{
-    using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using Moq;
+﻿using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 
+namespace FromCoderToEngineer.Tests.Chapter8.DependencyInversion
+{
     [TestClass]
     public class CustomerControllerTest
     {

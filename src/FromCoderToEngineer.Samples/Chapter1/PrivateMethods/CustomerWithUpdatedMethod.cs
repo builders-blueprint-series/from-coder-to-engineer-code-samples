@@ -5,7 +5,6 @@ namespace FromCoderToEngineer.Samples.Chapter1.PrivateMethods
     public class CustomerWithUpdatedMethod
     {
         // Other properties and method omitted for brevity.
-
         public DateTime AvailableMinimum { get; }
 
         public DateTime AvailableMaximum { get; }

@@ -7,7 +7,7 @@ namespace FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections
         public void Validate(Name name, Email email)
         {
             new NameValidator().Validate(name);
-            new EmailValidator() .Validate(email);
+            new EmailValidator().Validate(email);
         }
     }
 }

@@ -20,7 +20,6 @@ namespace FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections
         }
 
         // Other properties and methods omitted for brevity.
-
         public string FirstName { get; }
 
         public string MiddleName { get; }

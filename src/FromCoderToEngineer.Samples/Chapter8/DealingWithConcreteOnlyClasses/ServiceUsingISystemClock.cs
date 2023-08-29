@@ -1,8 +1,8 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.DealingWithConcreteOnlyClasses
-{
-    using System;
-    using DependencyInversion;
+﻿using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
+using System;
 
+namespace FromCoderToEngineer.Samples.Chapter8.DealingWithConcreteOnlyClasses
+{
     public class ServiceUsingISystemClock : ICustomerService
     {
         private readonly ISystemClock _clock;

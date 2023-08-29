@@ -1,29 +1,28 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController
-{
-    using System;
-    using Common.ReservationService;
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.AspNetCore.Mvc.Filters;
+﻿using FromCoderToEngineer.Samples.Common.ReservationService;
+using Microsoft.AspNetCore.Mvc;
+using System;
 
-    //[ApiController]
-    //[Route("api/[controller]")]
-    //public class ReservationController : ControllerBase
-    //{
+namespace FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController
+{
+    // [ApiController]
+    // [Route("api/[controller]")]
+    // public class ReservationController : ControllerBase
+    // {
     //    private readonly IReservationService _reservationService;
 
-    //    public ReservationController()
+    // public ReservationController()
     //    {
     //        _reservationService = new ReservationService();
     //    }
 
-    //    [HttpGet]
+    // [HttpGet]
     //    public IActionResult GetAllReservations()
     //    {
     //        try
     //        {
     //            var result = _reservationService.FindAllReservations();
 
-    //            return Ok(result);
+    // return Ok(result);
     //        }
     //        catch (Exception exception)
     //        {
@@ -31,17 +30,17 @@
     //        }
     //    }
 
-    //    [HttpGet("/{date:datetime}")]
+    // [HttpGet("/{date:datetime}")]
     //    public IActionResult FindAllReservationsOnDate(DateTime date)
     //    {
     //        var request = new FindAllReservationsOnDate(date);
 
-    //        var result = _reservationService.FindAllReservationsOnDate(request);
+    // var result = _reservationService.FindAllReservationsOnDate(request);
 
-    //        return Ok(result);
+    // return Ok(result);
     //    }
 
-    //    [HttpPost]
+    // [HttpPost]
     //    public IActionResult ChangeReservationTime(ChangeReservationTime request)
     //    {
     //        if (!ModelState.IsValid)
@@ -49,12 +48,11 @@
     //            return BadRequest();
     //        }
 
-    //        _reservationService.ChangeReservationTime(request);
+    // _reservationService.ChangeReservationTime(request);
 
-    //        return Accepted();
+    // return Accepted();
     //    }
-    //}
-
+    // }
     [ApiController]
     [Route("api/[controller]")]
     public class ReservationController : ControllerBase
@@ -101,26 +99,25 @@
             }
         }
 
-        //[HttpGet("/{min:datetime}/{max:datetime}")]
-        //public IActionResult FindAllReservationsOnDate(DateTime min, DateTime max)
-        //{
+        // [HttpGet("/{min:datetime}/{max:datetime}")]
+        // public IActionResult FindAllReservationsOnDate(DateTime min, DateTime max)
+        // {
         //    if (min == DateTime.MinValue || max == DateTime.MinValue)
         //    {
         //        return BadRequest();
         //    }
 
-        //    try
+        // try
         //    {
         //        var result = _reservationService.FindAllReservationsOnDate(min, max);
 
-        //        return Ok(result);
+        // return Ok(result);
         //    }
         //    catch (Exception exception)
         //    {
         //        return BadRequest(exception.Message);
         //    }
-        //}
-
+        // }
         [HttpPost]
         public IActionResult ChangeReservationTime(ChangeReservationTime request)
         {

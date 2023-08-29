@@ -1,9 +1,9 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
-{
-    using System.Linq;
-    using System.Reflection;
-    using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
+using System.Linq;
+using System.Reflection;
 
+namespace FromCoderToEngineer.Samples.Chapter8.DependencyInversion
+{
     public class RegisterViaReflection
     {
         public void Register(IServiceCollection collection)

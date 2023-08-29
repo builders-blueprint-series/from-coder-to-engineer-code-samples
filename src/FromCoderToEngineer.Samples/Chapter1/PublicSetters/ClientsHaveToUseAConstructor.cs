@@ -8,13 +8,13 @@
             var customer = new EncapsulatedCustomer(firstName, lastName, email);
 
             // Will not compile.
-            //var badCustomer = new EncapsulatedCustomer
-            //{
+            // var badCustomer = new EncapsulatedCustomer
+            // {
             //    FirstName = firstName,
             //    LastName = lastName,
             //    Email = email,
             //    Id = Guid.NewGuid(),
-            //};
+            // };
         }
     }
 }

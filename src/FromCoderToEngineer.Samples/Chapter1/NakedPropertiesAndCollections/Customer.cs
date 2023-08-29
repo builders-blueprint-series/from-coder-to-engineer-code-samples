@@ -5,7 +5,6 @@ namespace FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections
     public class Customer
     {
         // Certain properties omitted for brevity
-
         public Customer(string firstName, string lastName)
         {
             Validator.ValidNameFormat(firstName);

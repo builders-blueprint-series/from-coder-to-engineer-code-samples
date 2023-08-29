@@ -12,9 +12,9 @@ namespace FromCoderToEngineer.Tests.Chapter1.PrivateMethods
             var service = new ReservationService();
 
             // Does not compile, inaccessible due to protection level.
-            //var result = service.AvailabilityMatchesCustomer(DateTime.UtcNow, DateTime.MinValue, DateTime.MaxValue);
+            // var result = service.AvailabilityMatchesCustomer(DateTime.UtcNow, DateTime.MinValue, DateTime.MaxValue);
 
-            //Assert.IsTrue(result);
+            // Assert.IsTrue(result);
         }
     }
 }

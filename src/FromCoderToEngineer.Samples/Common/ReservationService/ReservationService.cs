@@ -4,8 +4,6 @@ using System.Collections.Generic;
 
 namespace FromCoderToEngineer.Samples.Common.ReservationService
 {
-    using System;
-
     public class ReservationService : IReservationService
     {
         public void ChangeReservationTime(ChangeReservationTime request)

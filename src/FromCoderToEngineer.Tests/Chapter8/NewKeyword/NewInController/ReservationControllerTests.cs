@@ -1,31 +1,30 @@
-﻿namespace FromCoderToEngineer.Tests.Chapter8.NewKeyword.NewInController
-{
-    using System;
-    using System.Collections.Generic;
-    using FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController;
-    using Samples.Chapter9.GenericDelegates;
-    using Samples.Common.ReservationService;
-    using Microsoft.AspNetCore.Mvc;
-    using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using Moq;
+﻿using FromCoderToEngineer.Samples.Chapter8.NewKeyword.NewInController;
+using FromCoderToEngineer.Samples.Chapter9.GenericDelegates;
+using FromCoderToEngineer.Samples.Common.ReservationService;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
+using System;
+using System.Collections.Generic;
 
-    //[TestClass]
-    //public class ReservationControllerTests
-    //{
+namespace FromCoderToEngineer.Tests.Chapter8.NewKeyword.NewInController
+{
+    // [TestClass]
+    // public class ReservationControllerTests
+    // {
     //    private ReservationController _reservationController;
 
-    //    public ReservationControllerTests()
+    // public ReservationControllerTests()
     //    {
     //        _reservationController = new ReservationController();
     //    }
 
-    //    [TestMethod]
+    // [TestMethod]
     //    public void GetAllReservation_OnSuccess_DoesNotThrowException()
     //    {
     //        // Our test code.
     //    }
-    //}
-
+    // }
     [TestClass]
     public class ReservationControllerTests
     {

@@ -1,8 +1,8 @@
-﻿namespace FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices
-{
-    using DependencyInversion;
-    using Common.ReservationService;
+﻿using FromCoderToEngineer.Samples.Chapter8.DependencyInversion;
+using FromCoderToEngineer.Samples.Common.ReservationService;
 
+namespace FromCoderToEngineer.Samples.Chapter8.BadDependencyInjectionPractices
+{
     public class OverInjecting : ICustomerService
     {
         private readonly IEventBus _eventBus;

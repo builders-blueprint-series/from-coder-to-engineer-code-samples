@@ -22,4 +22,3 @@ namespace FromCoderToEngineer.Samples.Chapter2.BadBaseClasses
         public Guid Id { get; }
     }
 }
-

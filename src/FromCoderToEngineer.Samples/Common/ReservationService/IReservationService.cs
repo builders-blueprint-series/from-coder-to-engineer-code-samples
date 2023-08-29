@@ -1,9 +1,9 @@
-﻿namespace FromCoderToEngineer.Samples.Common.ReservationService
-{
-    using System;
-    using System.Collections.Generic;
-    using Chapter9.GenericDelegates;
+﻿using FromCoderToEngineer.Samples.Chapter9.GenericDelegates;
+using System;
+using System.Collections.Generic;
 
+namespace FromCoderToEngineer.Samples.Common.ReservationService
+{
     public interface IReservationService
     {
         FindAllReservationsResponse FindAllReservations();

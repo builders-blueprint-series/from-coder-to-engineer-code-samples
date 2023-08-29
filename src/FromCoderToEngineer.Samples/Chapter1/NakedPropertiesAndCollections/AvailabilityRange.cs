@@ -11,7 +11,6 @@ namespace FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections
         }
 
         // Other properties and methods omitted for brevity.
-
         public DateTime Minimum { get; }
 
         public DateTime Maximum { get; }
