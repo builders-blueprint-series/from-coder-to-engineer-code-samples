@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FromCoderToEngineer.Samples.Chapter1.PublicSetters._1;
+using System;
 
 namespace FromCoderToEngineer.Samples.Chapter1.PublicSetters
 {

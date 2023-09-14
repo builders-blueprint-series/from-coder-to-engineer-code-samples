@@ -1,4 +1,4 @@
-﻿using FromCoderToEngineer.Samples.Chapter1.PublicSetters;
+﻿using FromCoderToEngineer.Samples.Chapter1.PublicSetters._1;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace FromCoderToEngineer.Tests.Chapter1.PublicSetters

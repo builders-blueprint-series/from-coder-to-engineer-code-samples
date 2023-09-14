@@ -1,6 +1,6 @@
 ﻿using FromCoderToEngineer.Samples.Chapter3.Common;
 
-namespace FromCoderToEngineer.Samples.Chapter3.ProblemWithNewKeyword
+namespace FromCoderToEngineer.Samples.Chapter3.ConstructorsInhibitChange
 {
     public class UpdatedCustomer
     {

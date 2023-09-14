@@ -1,8 +1,9 @@
-﻿using System;
+﻿using FromCoderToEngineer.Samples.Chapter1.PublicSetters._1;
+using System;
 
-namespace FromCoderToEngineer.Samples.Chapter1.PublicSetters
+namespace FromCoderToEngineer.Samples.Chapter1.PublicSetters._2
 {
-    internal class ExposedSetters
+    internal class PublicSetters
     {
         public void AnythingCanHappen()
         {

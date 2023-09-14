@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace FromCoderToEngineer.Samples.Chapter1.PublicSetters
 {
-    internal class TooMuchCustomerValidationLogic
+    public class TooMuchCustomerValidationLogic
     {
         public TooMuchCustomerValidationLogic(string firstName, string lastName, string email)
         {

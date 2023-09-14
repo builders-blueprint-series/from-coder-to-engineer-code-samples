@@ -1,5 +1,4 @@
-﻿using FromCoderToEngineer.Samples.Chapter1.NakedPropertiesAndCollections;
-using System;
+﻿using System;
 
 namespace FromCoderToEngineer.Samples.Chapter5.Common
 {

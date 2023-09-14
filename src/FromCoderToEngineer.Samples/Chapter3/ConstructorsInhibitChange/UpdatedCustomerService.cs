@@ -1,5 +1,4 @@
 ﻿using FromCoderToEngineer.Samples.Chapter3.Common;
-using FromCoderToEngineer.Samples.Chapter3.ProblemWithNewKeyword;
 
 namespace FromCoderToEngineer.Samples.Chapter3.ConstructorsInhibitChange
 {
