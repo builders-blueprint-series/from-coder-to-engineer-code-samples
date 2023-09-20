@@ -7,12 +7,9 @@ namespace FromCoderToEngineer.Samples.Chapter1.PublicSetters
     {
         public TooMuchCustomerValidationLogic(string firstName, string lastName, string email)
         {
-            if (firstName != null
-                && firstName != string.Empty
-                && lastName != null
-                && lastName != string.Empty
-                && email != null
-                && email != string.Empty
+            if (!string.IsNullOrEmpty(firstName)
+                && !string.IsNullOrEmpty(lastName)
+                && !string.IsNullOrEmpty(email)
                 && Regex.IsMatch(firstName, @"^[a-zA-Z]+$")
                 && Regex.IsMatch(lastName, @"^[a-zA-Z]+$")
                 && Regex.IsMatch(email, @"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b"))
