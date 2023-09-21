@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Chapter2\ManyImplementations\" />
     <Folder Include="Chapter3\ConstructorsNotDeclarative\" />
   </ItemGroup>
 
