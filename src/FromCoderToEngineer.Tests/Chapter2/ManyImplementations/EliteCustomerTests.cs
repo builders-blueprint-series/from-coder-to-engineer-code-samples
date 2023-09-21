@@ -13,7 +13,7 @@ namespace FromCoderToEngineer.Tests.Chapter2.ManyImplementations
 
             var result = customer.ApplyDiscount(100m);
 
-            Assert.AreEqual(90m, );
+            Assert.AreEqual(90m, result);
         }
     }
 }

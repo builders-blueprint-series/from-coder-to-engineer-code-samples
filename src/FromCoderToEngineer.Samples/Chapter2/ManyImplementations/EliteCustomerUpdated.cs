@@ -12,7 +12,7 @@ namespace FromCoderToEngineer.Samples.Chapter2.ManyImplementations
             {
                 return amount * .90m;
             }
-            
+
             return amount;
         }
     }
