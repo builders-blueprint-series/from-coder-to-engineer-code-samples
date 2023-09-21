@@ -1,4 +1,5 @@
 ﻿using FromCoderToEngineer.Samples.Chapter5.GodClasses;
+using System;
 
 namespace FromCoderToEngineer.Tests.Chapter5.GodClasses
 {
@@ -11,7 +12,7 @@ namespace FromCoderToEngineer.Tests.Chapter5.GodClasses
 
         public void AddNotification()
         {
-            AddNotification(new ReservationCreated());
+            AddNotification(new ReservationCreated(Guid.NewGuid(), DateTime.UtcNow));
         }
     }
 }
