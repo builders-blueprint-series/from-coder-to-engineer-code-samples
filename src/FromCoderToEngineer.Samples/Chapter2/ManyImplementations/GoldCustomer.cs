@@ -1,17 +1,12 @@
 ﻿namespace FromCoderToEngineer.Samples.Chapter2.ManyImplementations
 {
-    public class GoldCustomer : EliteCustomerUpdated
+    public class GoldCustomer : EliteCustomer
     {
         // More overrides for Gold elites.
 
-        public override decimal ApplyDiscount(decimal amount, bool isEligible)
+        public override decimal ApplyDiscount(decimal amount)
         {
-            if (isEligible)
-            {
-                return amount * .80m;
-            }
-
-            return amount;
+            return amount * .80m;
         }
     }
 }
